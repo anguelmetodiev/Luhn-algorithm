@@ -10,7 +10,7 @@ For example, given the card number 4408 0412 3456 7893:
 
 `Orig  :  4 4 0 8 0 4 1 2 3 4   5 6   7 8   9 3` <br>
 `Step 1:  8 4 0 8 0 4 2 2 6 4  10 6  14 8  18 3` <br>
-`Step 2:  8+4+0+8+0+4+2+2+6+4+1+0+6+1+4+8+1+8+3 = 70`
+`Step 2:  8+4+0+8+0+4+2+2+6+4+1+0+6+1+4+8+1+8+3 = 70` <br>
 `Step 3:  70 % 10 == 0`
 
 Write a function `validCard` that takes a number as an argument and returns true for a valid number and false for an invalid number.
